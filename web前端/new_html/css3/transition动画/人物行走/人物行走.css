@@ -1,0 +1,23 @@
+@keyframes waking{
+	from{
+		margin-left: 0px;
+	}
+	to{
+		margin-left: -960px;
+	}
+}
+
+
+.box{
+	width: 120px;
+	height: 182px;
+	/* border: 1px solid black; */
+	margin: 150px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.box img{
+	margin-left: 0;
+	animation: waking 1s steps(8) infinite;
+}

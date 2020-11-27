@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: #666666;
+
+    /*第一个值设置过渡的属性,
+    第二个值设置过度的时间,
+    第三个值设置过度的运动方式 有 linear(匀速)|ease(缓冲运动),
+    第四个值设置动画的延迟 */
+    transition:width 1s ease, height 1s ease 1s, background-color 1s ease 2s;
+}
+
+.box:hover{
+    width: 900px;
+    height: 500px;
+    background-color: #ff8200;
+
+}

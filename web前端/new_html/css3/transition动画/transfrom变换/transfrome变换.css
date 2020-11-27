@@ -1,0 +1,39 @@
+.weiyi,.suofang,.xuanzhuan,.xieqie{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    border: 3px solid orange;
+    background-color: #ff8200;
+}
+/*####################位移################################*/
+.weiyi{
+    transition: all linear 250ms;
+}
+.weiyi:hover{
+    transform: translate(30px,50px);
+}
+
+/*######################缩放################################*/
+.suofang{
+    transition: all linear 250ms;
+}
+.suofang:hover{
+    transform: scale(2,2);
+}
+
+/*#########################旋转##############################*/
+.xuanzhuan{
+    transition: all linear 250ms;
+}
+
+.xuanzhuan:hover{
+    transform: rotate(35deg);
+}
+/*##########################斜切###############################*/
+.xieqie{
+    transition: all linear 250ms;
+}
+.xieqie:hover{
+    transform: skew(30deg,30deg);
+}
+

@@ -1,0 +1,28 @@
+body{
+    background-image: url("adv01.jpg");
+}
+
+.box{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 100px;
+
+    /*设置透明度*/
+    opacity: 0.3;
+    /*兼容ie*/
+    filter:alpha(opacity=30);
+
+}
+
+.box2{
+    background-color: rgba(0,0,0,0.3);  /*前三位代表颜色后面一位代表透明度的值*/
+    width: 300px;
+    height: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 100px;
+
+}

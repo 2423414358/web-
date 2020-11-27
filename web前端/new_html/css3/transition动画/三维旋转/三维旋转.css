@@ -1,0 +1,155 @@
+/*##################### rotateX、rotateY、rotateZ 设置三维旋转####################################### */
+.box{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) rotatex(0deg);
+	transition: all linear 0.1s;
+}
+.box:hover{
+	transform:perspective(800px) rotatex(20deg);
+}
+
+.box2{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) rotatey(0deg);
+	transition: all linear 0.1s;
+}
+.box2:hover{
+	transform:perspective(800px) rotatey(20deg);
+}
+
+.box3{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) rotateyz(0deg);
+	transition: all linear 0.1s;
+}
+.box3:hover{
+	transform:perspective(800px) rotatez(20deg);
+}
+
+
+
+/*################### translateX、translateY、translateZ 设置三维移动#####################*/
+.box4{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) translateX(0px);
+	transition: all linear 0.1s;
+}
+.box4:hover{
+	transform:perspective(800px) translateX(50px);
+}
+
+
+.box5{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) translateY(0px);
+	transition: all linear 0.1s;
+	transform-style: preserve-3d;
+}
+.box5:hover{
+	transform:perspective(800px) translateY(50px);
+}
+
+
+
+.box6{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) translateZ(0px);
+	transition: all linear 0.1s;
+}
+.box6:hover{
+	transform:perspective(800px) translateZ(50px);
+}
+
+
+
+/*################# scaleX、scaleY、scaleZ 设置三维缩放################### */
+
+.box7{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) scaleX(1);
+	transition: all linear 500ms;
+}
+.box7:hover{
+	transform:perspective(800px) scaleX(2);
+}
+
+
+.box8{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) scaleY(1);
+	transition: all linear 500ms;
+}
+.box8:hover{
+	transform:perspective(800px) scaleY(2);
+}
+
+.box9{
+	width: 500px;
+	height: 300px;
+	background-color: gold;
+	border: 3px solid palegreen;
+	margin:50px auto;
+	transform-style: preserve-3d;
+	
+	/* perspective(800px)  设置透视距离 */
+	transform:perspective(800px) scaleZ(1);
+	transition: all linear 500ms;
+}
+.box9:hover{
+	transform:perspective(800px) scaleZ(2);
+}

@@ -1,0 +1,23 @@
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+}
+
+@keyframes rotating{
+	from{
+		transform: rotate(0deg);
+		}
+	to{ 
+		transform: rotate(360deg);
+	}
+}
+
+
+.box img{
+	display: block;
+	width: 400px;
+	height: 400px;
+	animation:rotating 1s linear 0s infinite;
+	
+}

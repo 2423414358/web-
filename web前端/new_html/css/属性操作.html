@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		P{
+			 color: rgba(23,25,566, 0.1);	/* 0.1 透明 */
+			 font-size: 30px;
+			 font-family: "楷体";	
+			 font-weight: 900;		/* 字体的粗度 */
+			 font-style: oblique; 		/* 斜体 */
+		}
+		.back{
+			/* 显示div框的大小 */
+			border: 1px solid red;
+			
+			width:800px;
+			height:800px;
+			background-repeat: no-repeat;
+			background-image: url(timg.jpg);
+			background-position: 0 200px
+		}
+		
+		
+		.span{
+			border: 1px solid red;
+			display: inline-block;
+			width: 18px;
+			height: 20px;
+			/* background-image: url(timg.jpg);
+			background-position: 0 -100px; */
+			/* 简写 */
+			background: no-repeat 0 -100px url(timg.jpg);
+		}
+		
+		
+	</style>
+	
+	<body>
+		
+		<!-- 颜色属性 -->
+				<div style="color: blue;">123</div>
+				<div style="color: #000000;">123</div>
+				<div style="color:rgb(23,56,89);">123</div>
+				<div style="color:rgba(23,56,55, 0.6);">123</div>
+		
+		
+		<!-- 字体属性 -->
+<!-- 			<font size="20px/50%/larger"></font>
+				<font-family:"字体"><font>
+				font-weight: lighter/bold/border/
+				
+				<h1 style="font-style: oblique;">谷歌</h1> -->	<!-- 字体斜体 -->
+		
+		<!-- 背景属性 -->
+		<!-- backgroud-color:cornflowerblue
+		backgroud-image:url
+		backgroud-repeat: no-repeat; (repeat:平铺满)
+		backgroud-position；right top(20px 20px);(横向: left conter right)(纵向: top center bootom)
+		 -->
+		
+		
+		<p>gwl</p>
+		
+		<div class="back"></div>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		
+		
+		
+	</body>
+</html>

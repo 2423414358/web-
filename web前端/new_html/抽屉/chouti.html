@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        font-family: "times new roman";
+        font-size: 12px;
+        background-color: lightgrey;
+    }
+
+    /* 头部 */
+    .head-box {
+        background-color: #2459a2;
+        height: 44px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    .head-content {
+        width: 1016px;
+        /* background-color: #8A2BE2; */
+        height: 44px;
+        line-height: 44px;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+        position: relative;
+    }
+
+    #logo1 {
+        display: inline-block;
+        background: url(images/logo1.png);
+
+        width: 36px;
+        height: 36px;
+
+        float: left;
+        margin-top: 3px;
+    }
+
+    #logo2 {
+        display: inline-block;
+        background: url(images/logo2.png) no-repeat;
+
+        width: 112px;
+        height: 44px;
+
+        float: left;
+        margin-top: 9px;
+        margin-left: 2px;
+    }
+
+    .head-content .action-menu {
+
+        float: left;
+        margin-left: 5px;
+    }
+
+    .head-content .action-menu a.tb {
+        display: inline-block;
+        /* background-color: cornsilk; */
+        position: relative;
+
+        margin-left: -3px;
+        /* border: 1px solid red; */
+        padding: 0 16px 0 13px;
+
+    }
+
+    .head-content .action-menu a.tb:hover {
+        color: white;
+        background-color: #2459a2;
+    }
+
+    .head-content .action-menu a.active,
+    .head-content .action-menu a.active:hover {
+        color: white;
+        background-color: #2459a2;
+    }
+
+    /* .head-content .action-menu a.active:hover{
+                color: white;
+                background-color: #2459a2;
+            } */
+
+    .key-searc {
+        float: right;
+        margin: 5px;
+
+    }
+
+    .key-searc .serarch-txt {
+        float: left;
+        width: 91px;
+        height: 25px;
+        padding: 2px 2px 2px 5px;
+
+    }
+
+    .key-searc a {
+        display: inline-block;
+        background-color: white;
+        width: 31px;
+        height: 32px;
+    }
+
+    .key-searc a span.ico {
+        display: inline-block;
+        background: url(images/suosu.png)no-repeat;
+        left: right;
+        width: 18px;
+        height: 18px;
+        /* border: 1px solid red; */
+        margin-left: 5px;
+        color: rgba(23, 25, 566, 0.1);
+
+    }
+
+    .action-nav {
+        position: absolute;
+        right: 150px;
+
+    }
+
+    .action-nav a {
+        display: inline-block;
+        line-height: 44px;
+        color: white;
+        margin: 0 2px;
+        padding: 0 2px;
+
+    }
+
+    .action-nav a:hover {
+        background-color: gold;
+    }
+
+
+    .main-content-box{
+        padding-top: 44px;
+    }
+
+    .main-content-box .main-content{
+        background-color: white;
+        margin: 0 auto;
+        width: 1016px;
+        height: auto!important;
+        min-height: 700px;
+        overflow: hidden;
+    }
+
+    .main-content .content-L{
+        float: left;
+        width: 630px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+         
+    }
+    .main-content .content-R{
+        float: left;
+    }
+
+
+
+    .head-head .head-text{
+        position: fixed;
+        float: left;
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 1017px;
+        height: 30px;
+        background-color: #2459a2;
+        
+        font-size: 5px;
+            
+    }
+
+    .head-head .head-text a{
+        display: inline-block;
+        color: 2459a2;
+        margin-left: 37px;
+        margin-top: 5px;
+    }
+
+    .head-head .head-text a.fist1:hover{
+        color: white;
+        background-color: #2459a2;
+    }
+
+    .head-head .head-text a.fist1boos{
+        color: white;
+    }
+</style>
+
+
+<body>
+    <div class="head-box">
+        <div class="head-content">
+            <a href="" id="logo1"></a>
+            <a href="" id="logo2"></a>
+            <div class="action-menu">
+                <a href="" class="tb active">全部</a>
+                <a href="" class="tb">42区</a>
+                <a href="" class="tb">段子</a>
+                <a href="" class="tb">图片</a>
+                <a href="" class="tb">挨踢1024</a>
+                <a href="" class="tb">你问我答</a>
+
+            </div>
+
+            <div class="key-searc">
+                <form action="/" method="POST">
+                    <input type="text" class="serarch-txt">
+                    <a href="" class="i">
+                        <span class="ico"></span>
+                    </a>
+                </form>
+            </div>
+
+            <div class="action-nav">
+                <a href="" class="register-btn">注册</a>
+                <a href="" class="login-btn">登入</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-content-box">
+        <div class="main-content">
+            <div class="content-L"></div>
+            <div class="content-R"></div>
+            <div class="footer-box"></div>
+
+
+        <div class="head-head">
+            <div class="head-text">
+                <a href="#" class="fist1boos" > 首页 </a>
+                <a href="#" class="fist1" > 发现 </a>
+                <a href="#" class="fist1" > 历史 </a>
+                <a href="#" class="fist1" > 娱乐 </a>
+    
+            </div>
+
+            
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+    
+    
+  
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+@keyframes loging{
+	from{
+		transform: scale(1,1);
+	}
+	to{
+		transform: scale(1,0.1);
+	}
+}
+
+.box{
+	width: 300px;
+	height: 158px;
+	/* border: 1px solid black; */
+	margin: 150px auto;
+	text-align: center;
+	color: #4D4D4C;
+	font-family: "楷体";
+}
+
+
+
+.box div{
+	width: 30px;
+	height: 100px;
+	float: left;
+	background-color: gold;
+	margin: 15px;
+	border-radius: 15px;
+	animation:loging 1s linear infinite alternate;
+}
+
+.box div:nth-child(1){
+	background-color: red;
+	animation-delay: 200ms;
+}
+.box div:nth-child(2){
+	background-color: green;
+	animation-delay: 400ms;
+}
+.box div:nth-child(3){
+	background-color: plum;
+	animation-delay: 500ms;
+}
+.box div:nth-child(4){
+	background-color: lawngreen;
+	animation-delay: 800ms;
+}
+.box div:nth-child(5){
+	background-color: lightskyblue;
+	animation-delay: 1000ms;
+}

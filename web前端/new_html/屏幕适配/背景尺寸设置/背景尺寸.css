@@ -1,0 +1,11 @@
+.box{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	margin: 150px auto;
+	
+	background: url(./apple.png) no-repeat;
+	background-size: 200px 200px;
+	background-size: 100% 100%;
+	
+}

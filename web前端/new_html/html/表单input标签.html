@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!-- 表格标签 -->
+		<!-- 		属性:
+			border：表格边距
+			cellpadding: 外边距
+			width：	像素百分比
+			<tr>:table row
+				<th>:table head cell
+				
+				<td>: table data celll
+			
+			rowspan: 单元格竖垮行
+			colspan：单元格横跨行 -->
+
+
+
+		<!-- 表单标签 <form> -->
+		<form action="http://127.0.0.1:8080/index" method="get" enctype="multipart/form-data">
+			
+			<h1>注册信息</h1>
+			<p>用户名:&nbsp;&nbsp;<input type="txt" placeholder="请输入账号"/></p>
+			<p>密码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="请输入密码" /></p>
+			<p>爱好:<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;音乐<input type="checkbox" name="hobby" value="music" />
+																游戏<input type="checkbox" name="hobby" value="game"/>
+			</p>
+			<p>性别:<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;男<input type="radio" name="gender"  value="man" />
+																女<input type="radio" name="gender"  value="wenmen" /></p>
+											
+											
+			<!-- file -->
+			<p><input type="file" name="上传文件" id="" value="" /></p>
+						
+			<!-- reset -->											
+			<input type="reset" value="重置">
+																
+			<!-- 提交 -->
+			<input type="submit" id=""value="提交注册" />
+			
+		</form>
+		
+		
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div1">
+        <p class="p1">hello p</p>
+        <div class="div2">hello div</div>
+
+    </div>
+    <script>
+        /*
+        节点的属性:
+            attributes - 节点(元素)的属性节点
+            nodeType - 节点类型
+            nodeValue - 节点值
+            nodeName - 节点名称
+            innerHTML - 节点(元素)的文本值
+
+        导航属性:
+            parentNode - 节点(元素)的父节点
+            firstChild - 节点下第一个子元素
+            lastChild  - 节点下最后一个子元素
+            childNodes - 节点(元素)的子节点
+        */
+
+        var ele = document.getElementsByClassName("p1")[0];
+        console.log(ele)
+        console.log(ele.nodeName);
+        console.log(ele.nodeType);
+        console.log(ele.nodeValue);
+        console.log(ele.innerHTML);
+        ele.innerHTML = "lovegwl";
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
